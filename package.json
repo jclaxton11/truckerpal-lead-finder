@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/cli.js",
-    "format": "node -e \"console.log('no formatter yet')\""
+    "format": "node -e \"console.log('no formatter yet')\"",
+    "find": "node src/cli.js find",
+    "scripts": "node src/cli.js scripts"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +16,8 @@
   "type": "module",
   "bin": {
     "lead-finder": "./src/cli.js"
+  },
+  "dependencies": {
+    "playwright": "^1.58.2"
   }
 }

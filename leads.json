@@ -1,15 +1,11 @@
 {
-  "communities": [
-    {
-      "name": "r/Trucking",
-      "type": "reddit",
-      "url": "https://www.reddit.com/r/Trucking/"
-    },
-    {
-      "name": "TruckersReport",
-      "type": "forum",
-      "url": "https://www.truckersreport.com/truckingindustryforum/"
-    }
+  "queries": [
+    "site:reddit.com/r/Trucking parking full",
+    "site:reddit.com/r/OwnerOperators parking full",
+    "site:reddit.com/r/Trucking diesel prices app",
+    "site:reddit.com/r/Trucking weigh station open closed",
+    "truck parking app weather alerts",
+    "site:truckersreport.com parking full"
   ],
   "offer": {
     "kind": "founders_pass",
@@ -17,8 +13,8 @@
   },
   "hooks": [
     "parking",
-    "weather_alerts",
-    "fills_by"
-  ],
-  "notes": "Paste thread URLs here and generate outreach scripts."
+    "fuel_prices",
+    "weigh_stations",
+    "weather_alerts"
+  ]
 }
